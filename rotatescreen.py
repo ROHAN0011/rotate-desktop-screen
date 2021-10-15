@@ -19,10 +19,15 @@ def Screen_rotation(args):
 
 # Creating tkinter object
 master = Tk()
-master.geometry("150x150")
-master.title("Screen Rotation")
+master.geometry("350x200")
+master.title("Screen Rotation Project")
 master.configure(bg='light grey')
 
+lblInfo = Label(font=('helvetica', 10, 'bold'),
+                text="Developed by Rohan Kasabe",
+                fg="Black", bd=10, anchor='w')
+
+lblInfo.grid(row=0, column=0)
 
 
 
